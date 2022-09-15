@@ -83,3 +83,4 @@ def envoie_discord(URL_VETEMENT, WEBHOOK_URL):
                               method='POST')
         # envoyer la request a discord
         request.urlopen(req)
+        print("Article envoyé")
