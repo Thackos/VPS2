@@ -19,11 +19,9 @@ URL_SWEAT_NIKE_TECH = "https://www.vinted.fr/vetements?size_id[]=207&size_id[]=2
 URL_CARGO_CARHARTT = "https://www.vinted.fr/vetements?search_text=cargo%20&search_id=6438922477&brand_id[]=362&price_from=1&currency=EUR&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&catalog[]=34&price_to=35&color_id[]=4&color_id[]=20&color_id[]=12&color_id[]=3&color_id[]=1&color_id[]=21"
 URL_JOGGING_RALPH = "https://www.vinted.fr/vetements?search_text=jogging&search_id=6448637875&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&currency=EUR&catalog[]=1821&price_from=1&brand_id[]=88&price_to=30"
 URL_JOGGING_LACOSTE = "https://www.vinted.fr/vetements?search_text=jogging&search_id=6448637875&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&currency=EUR&catalog[]=1821&price_from=1&price_to=30&brand_id[]=304"
-
 URL_DOUDOUNE_TNF = "https://www.vinted.fr/vetements?search_text=doudoune%20the%20north%20face&search_id=6448592366&catalog[]=2051&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&currency=EUR&brand_id[]=2319&price_from=1&price_to=100&time=1663331690&page=2"
 URL_DOUDOUNE_LACOSTE = "https://www.vinted.fr/vetements?search_text=doudoune%20lacoste&search_id=6448547163&catalog[]=2051&brand_id[]=304&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&price_from=1&currency=EUR&price_to=80"
 URL_DOUDOUNE_NIKE = "https://www.vinted.fr/vetements?search_text=doudoune%20nike&search_id=6448577156&catalog[]=2051&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&currency=EUR&price_from=1&price_to=45"
-
 URL_BONNET_LACOSTE = "https://www.vinted.fr/vetements?brand_id[]=304&search_text=bonnets&search_id=6409038568&price_from=1&currency=EUR&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&price_to=10"
 URL_BONNET_RALPH = "https://www.vinted.fr/vetements?brand_id[]=88&brand_id[]=4273&search_id=6409038568&price_from=1&currency=EUR&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&price_to=15&catalog[]=287"
 URL_AF1 = "https://www.vinted.fr/vetements?search_id=6409172428&currency=EUR&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&catalog[]=1242&price_from=1&search_text=air%20force%201&price_to=50"
@@ -46,11 +44,9 @@ WEBHOOK_URL_SWEAT_NIKE_TECH = "https://discord.com/api/webhooks/1018597731977154
 WEBHOOK_URL_CARGO_CARHARTT = "https://discord.com/api/webhooks/1018916033286897866/irp7nj4e05LTqSPBuGSceYqsMJJhsjoFuVL8-mGEtdlsI-DxoNo9NRS1F4-OFxWP1XTv"
 WEBHOOK_URL_JOGGING_RALPH = "https://discord.com/api/webhooks/1020102415816597626/QRwyu7LHIuhiUaQQjBgtdhxnSDEk9mT_nar_3j-Lf3FaqxSPRMuSADGM2zx-EVRLp16X"
 WEBHOOK_URL_JOGGING_LACOSTE = "https://discord.com/api/webhooks/1020103203464945725/xzTKEXIqqGAeGGuHgphdSnd8XPwNEAfKg2DV2MUtSgjymQD9OFlYLesO01li6mishSXU"
-
 WEBHOOK_URL_DOUDOUNE_TNF = "https://discord.com/api/webhooks/1018916290586484876/KoW5bIw1b4ltePQYFbHusuZML9syBG9zoCk-GTjQqgnw2v_A1olZSvS6SPLYYetdNZGA"
 WEBHOOK_URL_DOUDOUNE_LACOSTE = "https://discord.com/api/webhooks/1020018690185494608/PaKcirtQpEui9vKlqcdEiHk13yRaO-amgrTlKuS4e0DbFvgXMle9ZrVQhaKtXqFqkpGL"
 WEBHOOK_URL_DOUDOUNE_NIKE = "https://discord.com/api/webhooks/1020094870901243954/sBZs1pd-IZNGWe7SG-wkI0mV3h00HzMNIWN124JdHULmia_B7itqvonLjJlPXAV0uK41"
-
 WEBHOOK_URL_BONNET_LACOSTE = "https://discord.com/api/webhooks/1018916883698831455/uYG107MCktN4UY8VHFMiiF-hYfzsuTb6U6Y94kuyB0GuSgn754T6JNxjoY4sx9livAzS"
 WEBHOOK_URL_BONNET_RALPH = "https://discord.com/api/webhooks/1018917035679416360/xNM0i48zm7VoUvT0grgqoKfUJ06T1aG0LzdisTLS5XsBh1KDefqqzHACsQqlCKxOGFdx"
 WEBHOOK_URL_AF1 = "https://discord.com/api/webhooks/1018916523940778024/tQWqlZdHj38axaqFtKpvQGzxqD6JLvHymevI6lTBYA8uWxIxoGhJaxK38zEaRJiX08Fz"
@@ -69,18 +65,15 @@ while True:
         print("JOGGING LACOSTE dans " + str(DELAI) + " secondes...")
         time.sleep(DELAI)
         envoie_discord(URL_JOGGING_LACOSTE, WEBHOOK_URL_JOGGING_LACOSTE)
-        print("DOUDOUNE SANS MANCHE LACOSTE dans " + str(DELAI) + " secondes...")
+        print("DOUDOUNE TNF dans " + str(DELAI) + " secondes...")
         time.sleep(DELAI)
-        envoie_discord(URL_DOUDOUNE_SANS_MANCHE_LACOSTE, WEBHOOK_URL_DOUDOUNE_SANS_MANCHE_LACOSTE)
-        print("DOUDOUNE SANS MANCHE NIKE dans " + str(DELAI) + " secondes...")
+        envoie_discord(URL_DOUDOUNE_TNF, WEBHOOK_URL_DOUDOUNE_TNF)
+        print("DOUDOUNE LACOSTE dans " + str(DELAI) + " secondes...")
         time.sleep(DELAI)
-        envoie_discord(URL_DOUDOUNE_SANS_MANCHE_NIKE, WEBHOOK_URL_DOUDOUNE_SANS_MANCHE_NIKE)
-        print("DOUDOUNE SANS MANCHE TNF dans " + str(DELAI) + " secondes...")
+        envoie_discord(URL_DOUDOUNE_LACOSTE, WEBHOOK_URL_DOUDOUNE_LACOSTE)
+        print("DOUDOUNE NIKE dans " + str(DELAI) + " secondes...")
         time.sleep(DELAI)
-        envoie_discord(URL_DOUDOUNE_SANS_MANCHE_TNF, WEBHOOK_URL_DOUDOUNE_SANS_MANCHE_TNF)
-        print("VESTE TNF dans " + str(DELAI) + " secondes...")
-        time.sleep(DELAI)
-        envoie_discord(URL_VESTES_TNF, WEBHOOK_URL_VESTE_TNF)
+        envoie_discord(URL_DOUDOUNE_NIKE, WEBHOOK_URL_DOUDOUNE_NIKE)
         print("BONNET LACOSTE dans " + str(DELAI) + " secondes...")
         time.sleep(DELAI)
         envoie_discord(URL_BONNET_LACOSTE, WEBHOOK_URL_BONNET_LACOSTE)
