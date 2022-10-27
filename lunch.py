@@ -15,6 +15,7 @@ URL_SWEAT_RALPH = "https://www.vinted.fr/vetements?size_id[]=207&size_id[]=208&s
 URL_SWEAT_TNF = "https://www.vinted.fr/vetements?size_id[]=207&size_id[]=208&size_id[]=209&catalog[]=1811&catalog[]=267&catalog[]=1813&catalog[]=1814&catalog[]=1815&catalog[]=1825&catalog[]=1812&price_from=1&currency=EUR&price_to=20.00&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&brand_id[]=2319"
 URL_SWEAT_TOMMY = "https://www.vinted.fr/vetements?size_id[]=207&size_id[]=208&size_id[]=209&catalog[]=1811&catalog[]=267&catalog[]=1813&catalog[]=1814&catalog[]=1815&catalog[]=1825&catalog[]=1812&price_from=1&currency=EUR&price_to=20.00&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&brand_id[]=94&brand_id[]=352755"
 URL_SWEAT_NIKE_TECH = "https://www.vinted.fr/vetements?size_id[]=207&size_id[]=208&size_id[]=209&catalog[]=1812&price_from=1&currency=EUR&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&brand_id[]=53&price_to=30"
+URL_SWEAT_STUSSY = "https://www.vinted.fr/vetements?order=newest_first&currency=EUR&search_text=St%C3%BCssy%20Sweats&catalog[]=79&status[]=3&status[]=2&status[]=1&status[]=6&price_from=1&brand_id[]=441&color_id[]=20&color_id[]=12&color_id[]=3&color_id[]=1&color_id[]=4&price_to=35"
 URL_CARGO_CARHARTT = "https://www.vinted.fr/vetements?search_text=cargo%20&search_id=6438922477&brand_id[]=362&price_from=1&currency=EUR&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&catalog[]=34&price_to=35&color_id[]=4&color_id[]=20&color_id[]=12&color_id[]=3&color_id[]=1&color_id[]=21"
 URL_JOGGING_RALPH = "https://www.vinted.fr/vetements?search_text=jogging&search_id=6448637875&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&currency=EUR&catalog[]=1821&price_from=1&brand_id[]=88&price_to=30"
 URL_JOGGING_LACOSTE = "https://www.vinted.fr/vetements?search_text=jogging&search_id=6448637875&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&currency=EUR&catalog[]=1821&price_from=1&price_to=30&brand_id[]=304"
@@ -29,10 +30,6 @@ URL_AJ4 = "https://www.vinted.fr/vetements?search_id=6409092911&currency=EUR&sta
 URL_DUNK_LOW = "https://www.vinted.fr/vetements?search_id=6409177174&currency=EUR&status[]=3&status[]=2&status[]=1&status[]=6&order=newest_first&catalog[]=1242&price_from=1&search_text=dunk%20low&price_to=80"
 URL_TN = "https://www.vinted.fr/vetements?search_text=tn&status[]=6&status[]=1&status[]=2&status[]=3&order=newest_first&catalog[]=1242&price_from=1&currency=EUR&price_to=80"
 # Premium+ URL personnalisées
-# manteaux vestes (sur VPS2)
-URL_JEANJACQUES_1 = "https://www.vinted.fr/vetements?catalog%5B%5D=79&catalog%5B%5D=1821&catalog%5B%5D=583&catalog%5B%5D=582&catalog%5B%5D=1856&size_id%5B%5D=206&size_id%5B%5D=207&size_id%5B%5D=208&size_id%5B%5D=209&brand_id%5B%5D=53&brand_id%5B%5D=88&brand_id%5B%5D=4273&brand_id%5B%5D=430791&brand_id%5B%5D=442625&brand_id%5B%5D=4559748&brand_id%5B%5D=304&brand_id%5B%5D=677891&brand_id%5B%5D=268734&brand_id%5B%5D=6&brand_id%5B%5D=362&price_to=25&currency=EUR&order=newest_first"
-# joggos pull (sur VPS1)
-URL_JEANJACQUES_2 = "https://www.vinted.fr/vetements?catalog%5B%5D=1206&size_id%5B%5D=206&size_id%5B%5D=207&size_id%5B%5D=208&size_id%5B%5D=209&brand_id%5B%5D=53&brand_id%5B%5D=88&brand_id%5B%5D=4273&brand_id%5B%5D=430791&brand_id%5B%5D=442625&brand_id%5B%5D=4559748&brand_id%5B%5D=304&brand_id%5B%5D=677891&brand_id%5B%5D=268734&brand_id%5B%5D=362&brand_id%5B%5D=2319&brand_id%5B%5D=94&brand_id%5B%5D=364&price_to=35&currency=EUR&order=newest_first"
 
 WEBHOOK_URL_FREE_BOT = "https://discord.com/api/webhooks/1018306492945932358/fwE3Tl7Pi4JRRZggbZZmLWCE_2GmfEk8ydMAsiOn-VI56aIty5o6t4dYb9atyENxspwa"
 WEBHOOK_URL_TSHIRT_NIKE = "https://discord.com/api/webhooks/1018270137813573673/hhJ3hyeB1rgSiDttwCc5JJfuA_kjhWq78rvn82gop3vNcjqDWogrDXViccUwCjpTBFc6"
@@ -45,6 +42,7 @@ WEBHOOK_URL_SWEAT_RALPH = "https://discord.com/api/webhooks/1017532663231430727/
 WEBHOOK_URL_SWEAT_TNF = "https://discord.com/api/webhooks/1018297759352238141/O9gA4x2el3pY5kKkJxtMo_CA_UieuMJzfMYDzVK0sLtIeL_nZzSLhMc9G1W0TM0VMtp- "
 WEBHOOK_URL_SWEAT_TOMMY = "https://discord.com/api/webhooks/1018297971223306321/x3CAb-qLS6dKZbwx27fhfSGkdvvHTmvlHykUaieAsyyrGDtTpMrXVZyZE0qDovxdwGah "
 WEBHOOK_URL_SWEAT_NIKE_TECH = "https://discord.com/api/webhooks/1018597731977154630/B2qQgRTkkJztB8tJ0HJUDv8CBEe_JLjD8R_BetV59GADTqShFNrvgHxCYLVFAlGJBB52"
+WEBHOOK_URL_SWEAT_STUSSY = "https://discord.com/api/webhooks/1029853307151323196/q68CCckkUPaJjIsrkxXaDJhxMD7m4iSTC63UnWOfy-_8swGUtcJ2NdNrVh4JdnOzOGZ-"
 WEBHOOK_URL_CARGO_CARHARTT = "https://discord.com/api/webhooks/1018916033286897866/irp7nj4e05LTqSPBuGSceYqsMJJhsjoFuVL8-mGEtdlsI-DxoNo9NRS1F4-OFxWP1XTv"
 WEBHOOK_URL_JOGGING_RALPH = "https://discord.com/api/webhooks/1020102415816597626/QRwyu7LHIuhiUaQQjBgtdhxnSDEk9mT_nar_3j-Lf3FaqxSPRMuSADGM2zx-EVRLp16X"
 WEBHOOK_URL_JOGGING_LACOSTE = "https://discord.com/api/webhooks/1020103203464945725/xzTKEXIqqGAeGGuHgphdSnd8XPwNEAfKg2DV2MUtSgjymQD9OFlYLesO01li6mishSXU"
@@ -59,8 +57,6 @@ WEBHOOK_URL_AJ4 = "https://discord.com/api/webhooks/1018916748357029951/DtT4FxuM
 WEBHOOK_URL_DUNK_LOW = "https://discord.com/api/webhooks/1018916813637161000/CChuqQ01PQ4nzMj53kA4tnypscb25-6vB9_QZxZCbjWFenIALla1lML0Aki00ib_SUQ6"
 WEBHOOK_URL_TN = "https://discord.com/api/webhooks/1029845480299057202/jy1g6m1Gy6cYLdFGjvTBeg9u_Ti6hXidJ7SmUOCLpb85-N4J6lPcqqBwzp25ArKY_wdS"
 # Premium+ Salons personnalisés
-WEBHOOK_URL_JEANJACQUES_1 = "https://discord.com/api/webhooks/1021045819077578812/eVjZXmZ51uUPQKXi6NNNwtamXyR_pe7yXT9TK7moZqCfysy1BHrAsf9h48YHa-tCx2hT"
-WEBHOOK_URL_JEANJACQUES_2 = "https://discord.com/api/webhooks/1021046013257056277/_UeGxgGbSJb3vcq3Zswbiw5SuaJzEyJwABkEbroaHIGfkdrGk7n33a-ijw3Lr5wRAd74"
 
 while True:
     try:
@@ -103,8 +99,5 @@ while True:
         print("TN dans " + str(DELAI) + " secondes...")
         time.sleep(DELAI)
         envoie_discord(URL_TN, WEBHOOK_URL_TN)
-        print("JeanJacques1 dans " + str(DELAI) + " secondes...")
-        time.sleep(DELAI)
-        envoie_discord(URL_JEANJACQUES_1, WEBHOOK_URL_JEANJACQUES_1)
     except Exception:
         pass
